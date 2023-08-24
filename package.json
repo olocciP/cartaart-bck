@@ -1,7 +1,28 @@
 {
-  "name": "node-starter",
-  "version": "0.0.0",
+  "name": "cartaart",
+  "version": "1.0.0",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mysql": "^2.18.1",
+    "node": "^12.13.1",
+    "prettier": "^2.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dxedutech/cartaart-node-stackblitz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dxedutech/cartaart-node-stackblitz/issues"
+  },
+  "homepage": "https://github.com/dxedutech/cartaart-node-stackblitz#readme",
+  "description": ""
 }
